@@ -46,7 +46,7 @@ btn.addEventListener("click", function (e) {
         if (item == mispelledWordSplit[j]) {
           count++;
           if (mispelledWord.value.length - 1 == count) {
-            result.innerHTML = `Let me guess : ` + data.toLowerCase() + ` (${numbers[i]})`;
+            result.innerHTML = `Let me guess : ` + data.toLowerCase() + ` ( ${numbers[i]})`;
             flag = true;
           }
         }
